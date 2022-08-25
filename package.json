@@ -1,0 +1,19 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "description": "my happy app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Durgesh thakur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "v": "^0.3.0"
+  }
+}

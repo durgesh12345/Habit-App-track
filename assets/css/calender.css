@@ -1,0 +1,177 @@
+h1{
+    background-color: red;
+}
+
+.container1{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 240, 240);
+    margin-top: 0px;
+}
+.dis{
+    width: 400px;
+    height: auto;
+    background-color:black;
+  margin-top: 0px;
+  
+    box-shadow: rgba(138, 138, 160, 0.25) 0px 50px 100px -20px, rgba(60, 140, 168, 0.3) 0px 30px 60px -30px, rgba(95, 145, 194, 0.35) 0px -2px 6px 0px inset; 
+  
+}
+.changemonth{
+background-color: green;
+display: flex;
+justify-content: center;
+text-align: center;
+box-shadow: rgba(87, 87, 187, 0.25) 0px 50px 100px -20px, rgba(60, 140, 168, 0.3) 0px 30px 60px -30px, rgba(95, 145, 194, 0.35) 0px -2px 6px 0px inset; 
+  
+}
+#next{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    color: aliceblue;
+}
+#changed{
+  font-size: 10px;
+  width: 100px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#changem{
+    margin-top: 0px;
+    color: aliceblue;
+}
+.day{
+    display: flex;
+   justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+   color: aliceblue;
+   background-color: black;
+}
+.datenumber{
+    width: 100%;
+  
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+}
+.days{
+    color:white;
+    display: flex;
+    justify-content: center;
+   
+}
+           
+#pre-date{
+   
+    font-size: 1.4rem;
+margin: 0rem;
+display: flex;
+align-items: center;
+justify-content: center;
+width: calc(24.7rem/7);
+height: 3rem;
+text-align: center;
+color: rgb(98, 103, 108);
+
+}
+#datenumber{
+    
+font-size: 1.4rem;
+margin: 0rem;
+
+width: calc(24.7rem/7);
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+
+
+margin-top: 1px;
+
+}
+.nextd{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#next-date{
+    font-size: 1.4rem;
+    margin: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(24.7rem/7);
+    height: 3rem;
+    text-align: center;
+    color: rgb(98, 103, 108);
+    
+}
+.datenumber .datenum:hover:not(.today){
+    background-color: #262626 ;
+    border: -0.00000001rem solid white;
+    cursor: pointer;
+}
+.today{
+    background-color: #167e56;
+    border-radius: 3px;
+}
+
+
+.addtask{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.add1{
+    width: 200px; 
+    height: 100px;
+    background-color: gray;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 240, 240);
+}
+.ite{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    box-shadow: rgba(87, 87, 187, 0.25) 0px 50px 100px -20px, rgba(60, 140, 168, 0.3) 0px 30px 60px -30px, rgba(95, 145, 194, 0.35) 0px -2px 6px 0px inset; 
+ 
+}
+.ite1{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-top: 3px;
+    box-shadow: rgba(87, 87, 187, 0.25) 0px 50px 100px -20px, rgba(60, 140, 168, 0.3) 0px 30px 60px -30px, rgba(95, 145, 194, 0.35) 0px -2px 6px 0px inset; 
+ 
+}
+
+#title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+}
+
+#val{
+    text-align: center;
+    margin-left: 80px;
+    
+}
